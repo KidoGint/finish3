@@ -18,6 +18,7 @@ public class Main {
                 maxLine = text;
             }
         }
+        bufferedReader.close();
         System.out.println(maxLine);
     }
 
